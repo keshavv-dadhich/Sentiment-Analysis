@@ -2,8 +2,6 @@
 
 This repo contains tutorials covering understanding and implementing sequence classification models using [PyTorch](https://github.com/pytorch/pytorch), with Python 3.9. Specifically, we'll train models to predict sentiment from movie reviews.
 
-**If you find any mistakes or disagree with any of the explanations, please do not hesitate to [submit an issue](https://github.com/bentrevett/pytorch-sentiment-analysis/issues/new). I welcome any feedback, positive or negative!**
-
 ## Getting Started
 
 Install the required dependencies with: `pip install -r requirements.txt --upgrade`.
@@ -25,10 +23,6 @@ Install the required dependencies with: `pip install -r requirements.txt --upgra
 -   4 - [Transformers](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/main/4%20-%20Transformers.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/main/4%20-%20Transformers.ipynb)
 
     Finally, we'll show how to use the transformers library to load a pre-trained transformer model, specifically the BERT model from [this](https://arxiv.org/abs/1810.04805) paper, and use it for sequence classification.
-
-## Legacy Tutorials
-
-Previous versions of these tutorials used features from the torchtext library which are no longer available. These are stored in the [legacy](https://github.com/bentrevett/pytorch-sentiment-analysis/tree/main/legacy) directory.
 
 ## References
 
